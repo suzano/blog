@@ -1,0 +1,246 @@
+# Page settings
+
+baseURL = "https://suzano.github.io/curriculo"
+languageCode = "pt"
+title = "Suzano Bitencourt"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "Suzano Bitencourt"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Suzano Bitencourt"
+        tagline = "Técnico em Informática"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "São Paulo - Brasil"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+55 11 9.6703-8527"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "suzanobitencourt@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://suzano.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Técnica"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "Python/Ruby/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js/ASP.NET"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Design orientado a objetos"
+        [[params.skills.list.items]]
+        details = "Projetar e implementar estruturas de banco de dados"
+       
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Comunicação"
+        [[params.skills.list.items]]
+        details = "Flexibilidade e resiliência"
+        [[params.skills.list.items]]
+        details = "Trabalho em equipe"
+        [[params.skills.list.items]]
+        details = "Proatividade"
+        [[params.skills.list.items]]
+        details = "Pensamento crítico"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "University College London"
+        dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "BSc Maths and Physics"
+        university = "Imperial College London"
+        dates = "2007 - 2010"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Português"
+        level = "(Nativo)"
+        [[params.languages.list]]
+        name = "Inglês"
+        level = "Professional"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Ciclismo"
+        [[params.interests.list]]
+        name = "Fotografia"
+        [[params.interests.list]]
+        name = "Viagens"
+
+    [params.summary]
+        enable = true
+        text = "Olá, eu sou o Suzano e trabalho como técnico em informática há mais de 10 anos no Departamento de Engenharia da Computação e Sistemas Digitais da Escola Politécnica da USP. Me considero um profissional versátil com experiência diversificada na área de TI; desenvolvedor web, programação, banco de dados, infraestrutura, redes, suporte técnico e treinamentos. Se você está procurando um profissional confiável e trabalhador para elevar seus resultados na web, implementar interfaces de usuário e trabalhar em uníssono com suas equipes – da infraestrutura ao desenvolvimento – eu sou a pessoa que você procura. Tem um projeto empolgante em que precisa de ajuda?"
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Técnico em Informática"
+        dates = "2010 - Presente"
+        company = "PCS-EPUSP - Eng. de Computação"
+        #details = "Descrição da função"
+        [[params.experience.list.items]]
+        details = "Suporte técnico aos usuários de microcomputadores, envolvendo utilização de softwares, aplicativos, serviços de informática e de redes."
+        [[params.experience.list.items]]
+        details = "Diagnosticar problemas de hardware e software."
+        [[params.experience.list.items]]
+        details = "Construção de sites dinâmicos, responsivos, sofisticados e de interface funcional para meu departamento e laboratórios."
+        [[params.experience.list.items]]
+        details = "Acesso e configuração dos servidores da Internuvem USP, Apache, PHP, MariaDB, Firewall, CMS e administração de usuários."
+        [[params.experience.list.items]]
+        details = "Realizar trabalhos de transmissão e captação de imagem e som, operando equipamentos de áudio e vídeo."
+        [[params.experience.list.items]]
+        details = "Edição de vídeos, montagens de imagens bitmaps e vetorias."
+        [[params.experience.list.items]]
+        details = "Dar suporte técnico em apresentações de aulas, palestras, seminários etc., que requeiram o uso de equipamentos de informática."
+        
+        [[params.experience.list]]
+        title = "Assistente de TI"
+        dates = "2010 - 2010"
+        company = "CDB - Centro de Diagnósticos Brasil"
+        #details = "Descrição da função."
+        [[params.experience.list.items]]
+        details = "Prestar suporte técnico aos usuários no local ou através de telefone (unidades), no tocante ao uso de software básico, aplicativos, serviços de informática e de redes em geral."
+        [[params.experience.list.items]]
+        details = "Diagnosticar problemas de hardware e software, a partir das solicitações, buscando solução para os mesmos ou solicitando apoio superior."
+        [[params.experience.list.items]]
+        details = "Participar da implantação e manutenção de sistemas, bem como desenvolver trabalhos de montagem, simulação e testes de programas."
+        [[params.experience.list.items]]
+        details = "Acompanhar o funcionamento dos sistemas em processamento, instalação, configuração de software e impressoras."
+
+        [[params.experience.list]]
+        title = "Instrutor de Informática"
+        dates = "2005 - 2009"
+        company = "MICROCAMP - Educação Tecnológica"
+        #details = "Descrição da função."
+        [[params.experience.list.items]]
+        details = "Dotnet (Windows XP/Vista, Office XP)."
+        [[params.experience.list.items]]
+        details = "Linux (Desktop e Servidor Conectiva Linux 10, Samba, Iptables, OpenOffice)."
+        [[params.experience.list.items]]
+        details = "Hardware (Eletrônica básica, Hardware Teórico e Prático, MS-DOS 6.22, Windows XP/Vista, Conectiva Linux 10, Redes)."
+        [[params.experience.list.items]]
+        details = "Curso de Webdesign (Windows XP/Vista, HTML, CSS, Corel Draw 13, Photoshop CS3, Fireworks CS3, Dreamweaver CS3, Lógica de Programação, Javascript, PHP, Mysql, ASP, Flash CS3)."
+
+        [[params.experience.list]]
+        title = "Instrutor de Informática"
+        dates = "2002 - 2005"
+        company = "DATA BYTE - Formação Profissional"
+        #details = "Descrição da função."
+        [[params.experience.list.items]]
+        details = "Operador de Microcomputador (Windows XP, Office XP/2000, Publisher e FrontPage)."
+        [[params.experience.list.items]]
+        details = "Suporte Técnico Hardware e Redes (Hardware Redes e Manutenção Preventiva)."
+        [[params.experience.list.items]]
+        details = "Computação Gráfica (Photoshop 5, CorelDRAW 10, PageMaker 7 e InDesign)."
+        
+        [[params.experience.list]]
+        title = "Instrutor de Informática"
+        dates = "2000 - 2002"
+        company = "COMPUWAY - Ensino Interativo"
+        #details = "Descrição da função."
+        [[params.experience.list.items]]
+        details = "Tecnologia da Informação (Introdução à Informática, Windows 98, Office 97 e Internet)."
+        [[params.experience.list.items]]
+        details = "Programador de Sistemas (Lógica de Programação, Access 97 e Visual Basic 6)."
+        [[params.experience.list.items]]
+        details = "Produção Gráfica (Photoshop 5, CorelDRAW 8 e PageMaker 6)."
+        [[params.experience.list.items]]
+        details = "Montagem e Manutenção de Computadores (Hardware Teórico e Prático)."
+       
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/suzano"
+        title = "GitHub"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/suzano-bitencourt-3b8a53b"
+        title = "Linkdedin"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+

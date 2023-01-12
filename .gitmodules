@@ -1,0 +1,6 @@
+[submodule "trilhatecnica/themes/themes/hugo-initio"]
+	path = trilhatecnica/themes/themes/hugo-initio
+	url = https://github.com/miguelsimoni/hugo-initio.git
+[submodule "curriculo/themes/almeida-cv"]
+	path = curriculo/themes/almeida-cv
+	url = https://github.com/ineesalmeida/almeida-cv.git

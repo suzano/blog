@@ -1,0 +1,38 @@
+baseURL = "https://suzano.github.io"
+title = "Trilha Técnica"
+languageCode = "pt-br"
+DefaultContentLanguage = "pt-br"
+paginate = "10" # Número de postagens por página
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Ative o Google Analytics inserindo seu ID de rastreamento
+
+[Author]
+  name = "Suzano Bitencourt"
+  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "./assets/images/avatar.png"
+
+[Params]
+  description = "Fazem parte desta trilha, minhas anotações e estudos de materiais técnicos comênfase em informática e eletrônica." # Description of your site
+  opengraph = true
+  dateformat = "02-01-2006" # Change the format of dates
+  twitter_cards = false
+  readmore = false # Mostrar o botão "Leia mais" na lista se "true"
+  authorbox = false # Mostrar caixa de autor no final de cada postagem
+  pager = true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["post", "docs"]
+
+[Params.logo]
+  subtitle = "Fazem parte desta trilha, minhas anotações e estudos de materiais técnicos com ênfase em informática e eletrônica." # Logo subtitle
+
+[Params.sidebar]
+  home = "right"   # Configura o layout da página inicial
+  list = "right"   # Configura o layout para as páginas de lista
+  single = "right" # Configura o layout para as páginas únicas
+  # Ativar widgets em determinada ordem
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
